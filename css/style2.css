@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: #237081;
+        
+}
+h1{
+    margin-left: 70px;
+    margin-top: 10px;
+    
+}
+#box{
+    margin-left: 65px;
+    margin-right: 50px;
+    
+}
+.firstDiv{
+    margin-top: 15px;
+    height: 190px;
+}
+.div1{
+    height: 180px;
+    width: :250px;
+    float: left;
+    margin-left: 3px;
+    margin-right: 48px;
+}

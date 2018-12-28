@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: #237081;
+}
+h1{
+    margin-left: 75px;
+    margin-top: 10px;
+}
+#box{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.bigDiv{
+    margin-top: 10px;
+    height: 200px;
+}
+.bigDiv>div{
+    float: left;
+}
+.leftDiv{
+    width: 240px;
+    height: 160px;
+    margin-left: 25px;
+}
+.rightDiv{
+    width: 905px;
+    height: 160px;
+    margin-left: 40px;
+
+}
+.rightDiv>img{
+    float: right;
+    
+}
+.p1{
+    font-size: 20px;
+}

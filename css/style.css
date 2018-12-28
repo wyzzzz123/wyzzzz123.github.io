@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.clear{
+    clear: both;
+}
+body {
+    font-family: Arial;
+    line-height: 26px;
+    text-align: center;
+    background-color: #ffffff;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+.nav {
+    width: 920px;
+    height: 40px;
+    padding-left: 40px;
+}
+
+.nav ul {}
+
+.nav ul li {
+    float: left;
+    list-style-type: none;
+}
+
+.nav ul li a {
+    display: block;
+    padding: 10px;
+    color: aqua;
+}
+
+.nav ul li a:hover {
+    background-color: brown;
+}
+
+.select {
+    background-color: brown;
+}
+
+.box {
+    margin: auto;
+    width: 960px;
+   /*  height: 1000px; */
+    background-color: #233434;
+}
+
+.header {
+    float: left;
+    width: 960px;
+    height: 70px;
+    background-color: #38B2CE;
+    background-image: url(/images/logo.png);
+    background-position: 3% center;
+    background-size:180px;
+    background-repeat: no-repeat;
+}
+
+/*
+.nav {
+    float: left;
+    width: 960px;
+    height: 40PX;
+    background-color: #525252;
+}
+
+.nav ul {}
+
+.nav ul li {
+    margin-left: 10px;
+    float: left;
+    background-color: #595c5c;
+    list-style-type: none;
+    
+}
+
+.nav ul li a {
+    display: block;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.nav ul li a:hover {
+    background-color: #222122;
+    color: aquamarine;
+
+}
+*/
+
+.main {
+    float: left;
+    width: 960px;
+/*    height: 800px;*/
+    background-color: #38B2CE;
+}
+
+.main_left {
+    float: left;
+    width: 500px;
+/*    height: 800px;*/
+    background-color: #38B2CE;
+    position:relative;
+/*    position: relative;*/
+
+    
+}
+.hot_img{
+    height: 77px;
+    width: 500px;
+    background-color: #b5fdfd;
+    position: absolute;
+    margin-top: -350px;
+    font-size: 40px;
+    line-height: 75px;
+    filter: opacity(0.7);
+/*
+    filter:opacity(0.7);
+    position: absolute;
+    margin-top: 60px;
+    font-size: 32px;
+    line-height: 60px;
+*/
+    
+}
+.main_right {
+    float: right;
+    text-align: left;
+    color: #fff;
+    width: 420px;
+    padding: 20px;
+/*    height: 800px;*/
+    background-color: #237081;
+
+}
+.main_right h2 {
+   color: #e8b408;
+}
+
+.footer {
+    float: left;
+    width: 960px;
+    height: 60px;
+    line-height: 60px;
+    background-color: #38B2CE;
+}

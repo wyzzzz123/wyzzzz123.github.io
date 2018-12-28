@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: #237081;
+}
+
+
+h1{
+    margin-left: 40px;
+    margin-top: 15px;
+}
+#box>div{
+    float: left
+}
+.leftDiv{
+    width: 950px;
+    border-right: 2px black solid;
+    margin-top: 20px;
+    padding-right:8px;
+}
+.rightDiv{
+    width: 10px;
+    margin-left: 10px;
+}
+.leftDiv>div{
+    margin-left: 40px
+}
+.rightDiv>div{
+    width: 260px;
+    height: 145px;
+    margin-top: 35px;
+    margin-left: 1px;
+}
